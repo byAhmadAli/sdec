@@ -10929,7 +10929,7 @@ video.bg-video {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 2rem;
-    padding-right: 9rem;
+    padding-right: 7rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
     font-size: 3.5rem;
@@ -10964,5 +10964,31 @@ video.bg-video {
     top: 0;
     right: 2.5rem;
     width: auto;
+  }
+}
+
+.contact-us .item {
+  
+  text-align: center;
+}
+.contact-us .item i{
+  font-size: 3rem;
+}
+.contact-us .item h4{
+  font-size: 1.5rem;
+}
+.contact-us .item p{
+  font-size: .9rem;
+}
+
+@media (max-width: 991px) {
+  .contact-us .item i{
+    font-size: 2rem;
+  }
+  .contact-us .item h4{
+    font-size: 1rem;
+  }
+  .contact-us .item {
+    text-align: left;
   }
 }
